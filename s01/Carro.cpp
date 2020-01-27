@@ -21,3 +21,7 @@ void Carro::setAno(int ano){
 int Carro::getAno(){
     return ano;
 }
+
+Carro::Carro(){
+    this->marca = "FIAT";
+}

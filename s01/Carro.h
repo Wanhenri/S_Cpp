@@ -8,6 +8,7 @@ using namespace std;
 
 class Carro {
     public:
+        Carro();
         void setMarca(string marca); 
         string getMarca();
         void setAno(int ano);
